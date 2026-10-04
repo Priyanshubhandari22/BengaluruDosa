@@ -2,15 +2,16 @@
 
 > Authentic Bengaluru Dosa & South Indian Flavours — 100% Pure Vegetarian.
 
-[![Live Website](https://img.shields.io/badge/Live_Site-Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://bengaluru-dosa.mate73302.workers.dev)
+[![Live Website](https://img.shields.io/badge/Live_Site-Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://bengalurudosa.mate73302.workers.dev)
 [![Built with React 19](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![TanStack Start](https://img.shields.io/badge/TanStack-Start-FF4154?style=for-the-badge&logo=tanstack&logoColor=white)](https://tanstack.com/start)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
 ---
 
-## 🌐 Live URL
-- **Production Site:** [https://bengaluru-dosa.mate73302.workers.dev](https://bengaluru-dosa.mate73302.workers.dev)
+## 🌐 Live URLs
+- **Primary Production Site:** [https://bengalurudosa.mate73302.workers.dev](https://bengalurudosa.mate73302.workers.dev)
+- **Alternate Edge Site:** [https://bengaluru-dosa.mate73302.workers.dev](https://bengaluru-dosa.mate73302.workers.dev)
 
 ---
 
@@ -79,9 +80,9 @@ npm run build
 `
 
 ### Deploy to Cloudflare
-Deploy the prebuilt Nitro server bundle and static assets to Cloudflare:
+Deploy the prebuilt bundle to Cloudflare:
 `ash
-npx wrangler deploy --config .output/server/wrangler.json
+npx wrangler deploy
 `
 
 ---
