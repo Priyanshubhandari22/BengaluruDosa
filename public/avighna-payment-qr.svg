@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 770" width="370" height="770">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c1d11" />
+      <stop offset="100%" stop-color="#8b2515" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f3e5ab" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Card -->
+  <rect width="370" height="770" rx="20" fill="#faf7f2" stroke="#e6decb" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect width="370" height="110" rx="20" fill="url(#headerGrad)"/>
+  <rect y="90" width="370" height="20" fill="url(#headerGrad)"/>
+  
+  <text x="185" y="45" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="700" fill="#f8eed9" text-anchor="middle" letter-spacing="1">AVIGHNA BENGALURU DOSA</text>
+  <text x="185" y="70" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#e6decb" text-anchor="middle" letter-spacing="2">AUTHENTIC SOUTH INDIAN</text>
+  <text x="185" y="92" font-family="'Manrope', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle">Accepted Here • Instant UPI</text>
+  
+  <!-- QR Container Card -->
+  <rect x="25" y="130" width="320" height="370" rx="16" fill="#ffffff" stroke="#e2d8c3" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.05))"/>
+  
+  <!-- UPI Logo / Badges -->
+  <text x="185" y="165" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#5c1d11" text-anchor="middle">SCAN TO PAY WITH ANY UPI APP</text>
+  
+  <!-- QR Code Graphics (Geometric crisp pattern) -->
+  <g transform="translate(45, 185)">
+    <!-- Outer Position Markers (Top-Left) -->
+    <rect x="0" y="0" width="60" height="60" rx="8" fill="#5c1d11"/>
+    <rect x="10" y="10" width="40" height="40" rx="4" fill="#ffffff"/>
+    <rect x="20" y="20" width="20" height="20" rx="2" fill="#5c1d11"/>
+    
+    <!-- Outer Position Markers (Top-Right) -->
+    <rect x="220" y="0" width="60" height="60" rx="8" fill="#5c1d11"/>
+    <rect x="230" y="10" width="40" height="40" rx="4" fill="#ffffff"/>
+    <rect x="240" y="20" width="20" height="20" rx="2" fill="#5c1d11"/>
+    
+    <!-- Outer Position Markers (Bottom-Left) -->
+    <rect x="0" y="220" width="60" height="60" rx="8" fill="#5c1d11"/>
+    <rect x="10" y="230" width="40" height="40" rx="4" fill="#ffffff"/>
+    <rect x="20" y="240" width="20" height="20" rx="2" fill="#5c1d11"/>
+    
+    <!-- Alignment Pattern -->
+    <rect x="210" y="210" width="35" height="35" rx="4" fill="#5c1d11"/>
+    <rect x="217" y="217" width="21" height="21" rx="2" fill="#ffffff"/>
+    <rect x="223" y="223" width="9" height="9" fill="#5c1d11"/>
+    
+    <!-- QR Data Elements -->
+    <!-- Row segments -->
+    <rect x="75" y="10" width="50" height="10" fill="#2d251e"/>
+    <rect x="140" y="10" width="20" height="10" fill="#2d251e"/>
+    <rect x="175" y="10" width="30" height="10" fill="#2d251e"/>
+    
+    <rect x="75" y="30" width="20" height="10" fill="#2d251e"/>
+    <rect x="110" y="30" width="40" height="10" fill="#2d251e"/>
+    <rect x="170" y="30" width="15" height="10" fill="#2d251e"/>
+    
+    <rect x="75" y="50" width="35" height="10" fill="#2d251e"/>
+    <rect x="130" y="50" width="25" height="10" fill="#2d251e"/>
+    <rect x="180" y="50" width="20" height="10" fill="#2d251e"/>
+    
+    <!-- Timing Bars -->
+    <rect x="75" y="75" width="10" height="130" fill="#2d251e"/>
+    <rect x="95" y="75" width="20" height="10" fill="#2d251e"/>
+    <rect x="130" y="75" width="30" height="10" fill="#2d251e"/>
+    <rect x="175" y="75" width="45" height="10" fill="#2d251e"/>
+    
+    <!-- Center Data Block Pattern -->
+    <rect x="20" y="80" width="35" height="10" fill="#2d251e"/>
+    <rect x="0" y="100" width="50" height="10" fill="#2d251e"/>
+    <rect x="35" y="120" width="25" height="10" fill="#2d251e"/>
+    <rect x="10" y="140" width="40" height="10" fill="#2d251e"/>
+    <rect x="25" y="160" width="30" height="10" fill="#2d251e"/>
+    <rect x="0" y="180" width="55" height="10" fill="#2d251e"/>
+    <rect x="15" y="200" width="40" height="10" fill="#2d251e"/>
+    
+    <rect x="95" y="95" width="15" height="15" fill="#2d251e"/>
+    <rect x="120" y="95" width="25" height="10" fill="#2d251e"/>
+    <rect x="160" y="95" width="35" height="10" fill="#2d251e"/>
+    <rect x="210" y="95" width="20" height="10" fill="#2d251e"/>
+    <rect x="245" y="95" width="35" height="10" fill="#2d251e"/>
+    
+    <rect x="95" y="120" width="30" height="10" fill="#2d251e"/>
+    <rect x="140" y="115" width="15" height="20" fill="#2d251e"/>
+    <rect x="170" y="120" width="35" height="10" fill="#2d251e"/>
+    <rect x="220" y="120" width="45" height="10" fill="#2d251e"/>
+    
+    <!-- Center Emblem -->
+    <rect x="110" y="110" width="60" height="60" rx="30" fill="#ffffff" stroke="#5c1d11" stroke-width="3"/>
+    <text x="140" y="146" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="700" fill="#5c1d11" text-anchor="middle">?</text>
+    
+    <rect x="95" y="180" width="30" height="10" fill="#2d251e"/>
+    <rect x="140" y="180" width="20" height="10" fill="#2d251e"/>
+    <rect x="180" y="180" width="25" height="10" fill="#2d251e"/>
+    <rect x="225" y="180" width="40" height="10" fill="#2d251e"/>
+    
+    <rect x="75" y="205" width="20" height="10" fill="#2d251e"/>
+    <rect x="110" y="205" width="35" height="10" fill="#2d251e"/>
+    <rect x="160" y="205" width="25" height="10" fill="#2d251e"/>
+    
+    <rect x="75" y="230" width="40" height="10" fill="#2d251e"/>
+    <rect x="130" y="230" width="30" height="10" fill="#2d251e"/>
+    <rect x="175" y="230" width="25" height="10" fill="#2d251e"/>
+    <rect x="255" y="230" width="25" height="10" fill="#2d251e"/>
+    
+    <rect x="75" y="255" width="55" height="15" fill="#2d251e"/>
+    <rect x="145" y="255" width="35" height="15" fill="#2d251e"/>
+    <rect x="195" y="255" width="50" height="15" fill="#2d251e"/>
+  </g>
+  
+  <text x="185" y="480" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" fill="#666666" text-anchor="middle">UPI ID: avighnabengaluru@upi</text>
+  
+  <!-- Bottom info block -->
+  <rect x="25" y="520" width="320" height="130" rx="12" fill="#f0ebe0" stroke="#ded4c0" stroke-width="1"/>
+  
+  <text x="185" y="550" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" fill="#5c1d11" text-anchor="middle">Order Confirmation Required</text>
+  <text x="185" y="575" font-family="'Manrope', sans-serif" font-size="11" fill="#4d423b" text-anchor="middle">1. Confirm total bill on WhatsApp</text>
+  <text x="185" y="598" font-family="'Manrope', sans-serif" font-size="11" fill="#4d423b" text-anchor="middle">2. Scan &amp; complete payment above</text>
+  <text x="185" y="621" font-family="'Manrope', sans-serif" font-size="11" fill="#4d423b" text-anchor="middle">3. Send screenshot to +91 84476 34177</text>
+  
+  <!-- Supported Apps Footer -->
+  <g transform="translate(35, 680)">
+    <rect x="0" y="0" width="70" height="35" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1"/>
+    <text x="35" y="22" font-family="'Manrope', sans-serif" font-size="10" font-weight="700" fill="#4285F4" text-anchor="middle">GPay</text>
+    
+    <rect x="77" y="0" width="70" height="35" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1"/>
+    <text x="112" y="22" font-family="'Manrope', sans-serif" font-size="10" font-weight="700" fill="#5f259f" text-anchor="middle">PhonePe</text>
+    
+    <rect x="154" y="0" width="70" height="35" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1"/>
+    <text x="189" y="22" font-family="'Manrope', sans-serif" font-size="10" font-weight="700" fill="#00b9f5" text-anchor="middle">Paytm</text>
+    
+    <rect x="231" y="0" width="70" height="35" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1"/>
+    <text x="266" y="22" font-family="'Manrope', sans-serif" font-size="10" font-weight="700" fill="#2d251e" text-anchor="middle">BHIM</text>
+  </g>
+  
+  <text x="185" y="745" font-family="'Manrope', sans-serif" font-size="10" fill="#8c827a" text-anchor="middle">Sahastradhara Road • Mussoorie Road</text>
+</svg>
